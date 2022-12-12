@@ -1,24 +1,9 @@
-# README
+# Odin Messenger
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Built as part of [The Odin Project's Full Stack Ruby on Rails](https://www.theodinproject.com/paths/full-stack-ruby-on-rails?) curriculum: [Websockets and Actioncable](https://github.com/TheOdinProject/curriculum/blob/main/ruby_on_rails/mailers_advanced_topics/actioncable_lesson.md) lesson.
 
-Things you may want to cover:
+In this app, logged in users can send messages that will be broadcasted to other logged in users.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Techniques Implemented
+* Action Cable to broadcast data in `Message` channel
+* JavaScript to update view when new message is broadcasted
